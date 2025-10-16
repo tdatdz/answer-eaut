@@ -30,14 +30,15 @@ Cài đặt thư viện cần thiết:
 pip install selenium beautifulsoup4
 ```
 ## ⚠️ Lưu ý:
-Tải ChromeDriver tương ứng với bản Chrome của bạn tại:
+**Tải ChromeDriver tương ứng với bản Chrome của bạn tại:**
 👉 https://googlechromelabs.github.io/chrome-for-testing/
 
 ## 🚀 Cách sử dụng
  1️⃣ Mở thư mục dự án
-bash
-Sao chép mã
+```bash
 cd answer-eaut
+```
+ 
  2️⃣ Chạy chương trình
 ```bash
 python run.py
@@ -55,22 +56,22 @@ Nhập tổng số câu hỏi (nếu biết) → hoặc nhấn Enter để bỏ 
 Sau khi đã vào trang đầu tiên chứa câu hỏi → quay lại terminal và nhấn ENTER.
 ```
  5️⃣ Chờ quá trình tự động hoàn tất
-Kết quả sẽ được lưu tại:
+- Kết quả sẽ được lưu tại:
 
 ```bash
 output/quiz_text.txt
 ```
 ## 📁 Cấu trúc dự án
-css
+``` css
 Sao chép mã
 📂 answer-eaut/
  ├── run.py             # File chạy chính
  ├── README.md          # Tài liệu hướng dẫn (bạn đang đọc đây)
  └── output/
       └── quiz_text.txt # File kết quả chứa toàn bộ câu hỏi + đáp án
+```
 ## 🧠 Ví dụ đầu ra
-text
-Sao chép mã
+```text
 Câu 1: Chủ nghĩa duy vật đã trải qua mấy hình thức phát triển trong lịch sử?
 A. 2
 B. 3
@@ -82,6 +83,8 @@ A. Chủ nghĩa duy vật
 B. Chủ nghĩa kinh viện
 C. Chủ nghĩa kinh nghiệm
 D. Chủ nghĩa duy tâm
+```
+
 ## ✨ Thông tin
 - **Tác giả**: Nguyễn Thành Đạt
 
@@ -90,13 +93,13 @@ D. Chủ nghĩa duy tâm
 - **Mục tiêu**: Hỗ trợ sinh viên EAUT trích xuất nội dung quiz để ôn luyện nhanh chóng.
 
 ## 💡 Hướng phát triển
- Xuất file .docx hoặc .xlsx
+ - Xuất file .docx hoặc .xlsx
 
- Tự động nhận tiêu đề bài quiz để đặt tên file
+ - Tự động nhận tiêu đề bài quiz để đặt tên file
 
- Giao diện đồ họa thân thiện hơn (GUI)
+ - Giao diện đồ họa thân thiện hơn (GUI)
 
- Tích hợp nhận diện đáp án đúng
+ - Tích hợp nhận diện đáp án đúng
 
 ## ❤️ Góp ý & Đóng góp
 Nếu bạn thấy dự án hữu ích, hãy ⭐ Star repo này nhé!
