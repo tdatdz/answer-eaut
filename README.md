@@ -83,11 +83,11 @@ B. Chủ nghĩa kinh viện
 C. Chủ nghĩa kinh nghiệm
 D. Chủ nghĩa duy tâm
 ## ✨ Thông tin
-**Tác giả**: Nguyễn Thành Đạt
+- **Tác giả**: Nguyễn Thành Đạt
 
-**Phiên bản**: v3.0
+- **Phiên bản**: v3.0
 
-**Mục tiêu**: Hỗ trợ sinh viên EAUT trích xuất nội dung quiz để ôn luyện nhanh chóng.
+- **Mục tiêu**: Hỗ trợ sinh viên EAUT trích xuất nội dung quiz để ôn luyện nhanh chóng.
 
 ## 💡 Hướng phát triển
  Xuất file .docx hoặc .xlsx
