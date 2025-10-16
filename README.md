@@ -28,6 +28,8 @@ Cài đặt thư viện cần thiết:
 
 ```bash
 pip install selenium beautifulsoup4
+```
+
 ⚠️ Lưu ý:
 Tải ChromeDriver tương ứng với bản Chrome của bạn tại:
 👉 https://googlechromelabs.github.io/chrome-for-testing/
