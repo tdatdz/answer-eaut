@@ -34,32 +34,32 @@ Tải ChromeDriver tương ứng với bản Chrome của bạn tại:
 👉 https://googlechromelabs.github.io/chrome-for-testing/
 
 ## 🚀 Cách sử dụng
-# 1️⃣ Mở thư mục dự án
+ 1️⃣ Mở thư mục dự án
 bash
 Sao chép mã
 cd answer-eaut
-# 2️⃣ Chạy chương trình
-bash
-Sao chép mã
+ 2️⃣ Chạy chương trình
+```bash
 python run.py
-# 3️⃣ Khi được hỏi:
+```
+ 3️⃣ Khi được hỏi:
 Nhập link bài quiz:
 Ví dụ:
 
-ruby
-Sao chép mã
+```ruby
 https://elnda.eaut.edu.vn/mod/quiz/attempt.php?attempt=106566&cmid=3062&page=0
 Nhập tổng số câu hỏi (nếu biết) → hoặc nhấn Enter để bỏ qua.
-
-# 4️⃣ Khi trình duyệt Chrome mở lên → đăng nhập vào eLnda
+```
+ 4️⃣ Khi trình duyệt Chrome mở lên → đăng nhập vào eLnda
+ ```ruby
 Sau khi đã vào trang đầu tiên chứa câu hỏi → quay lại terminal và nhấn ENTER.
-
-# 5️⃣ Chờ quá trình tự động hoàn tất
+```
+ 5️⃣ Chờ quá trình tự động hoàn tất
 Kết quả sẽ được lưu tại:
 
-bash
-Sao chép mã
+```bash
 output/quiz_text.txt
+```
 ## 📁 Cấu trúc dự án
 css
 Sao chép mã
@@ -83,9 +83,11 @@ B. Chủ nghĩa kinh viện
 C. Chủ nghĩa kinh nghiệm
 D. Chủ nghĩa duy tâm
 ## ✨ Thông tin
-Tác giả: Nguyễn Thành Đạt
-Phiên bản: v3.0
-Mục tiêu: Hỗ trợ sinh viên EAUT trích xuất nội dung quiz để ôn luyện nhanh chóng.
+**Tác giả**: Nguyễn Thành Đạt
+
+**Phiên bản**: v3.0
+
+**Mục tiêu**: Hỗ trợ sinh viên EAUT trích xuất nội dung quiz để ôn luyện nhanh chóng.
 
 ## 💡 Hướng phát triển
  Xuất file .docx hoặc .xlsx
